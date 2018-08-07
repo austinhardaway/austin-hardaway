@@ -1,0 +1,153 @@
+{
+  "dev": {
+    "fname": "Austin",
+    "lname": "Hardaway",
+    "email": "austinhardaway@gmail.com",
+    "site": "https://austinhardaway.github.io",
+    "git": "https://github.com/austinhardaway",
+    "linkedin": "https://www.linkedin.com/in/austinhardaway/",
+    "facebook": "https://www.facebook.com/austin.hardaway.1",
+    "twitter": "https://twitter.com/AustinHardaway",
+    "phone": "(903)-343-1017",
+    "summary": "Senior at UGA pursuing a double major in Computer Science and Mathematics with an area\nof emphasis in Applied Mathematics. I have a passion for creating and making through software and am interested in opportunities to help me cultivate that passion.\n",
+    "education": {
+      "priority": 0,
+      "entries": [{
+        "name": "University of Georgia",
+        "major": "Computer Science and Mathematics",
+        "city": "Athens, GA",
+        "gpa": 3.1,
+        "start": "August 2015",
+        "end": "May 2019",
+        "image": "https://firebasestorage.googleapis.com/v0/b/resume-data-45ed1.appspot.com/o/University_of_Georgia_logo.jpg?alt=media&token=665fbac7-dfed-4cca-becd-315ba325dd4e",
+        "description": "Dean's List Fall 2015, Spring 2018; Active UGA Mock Trial Competitor 2015-2018; TA in CS department Junior year",
+        "priority": 0
+      }]
+    },
+    "experience": {
+      "priority": 1,
+      "entries": [{
+          "company": "Macys Technology",
+          "title": "DevOps Intern",
+          "start": "May 2018",
+          "end": "August 2018",
+          "description": "10 week internship with the DevOps team in Johns Creek at Macy's Technology.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/resume-data-45ed1.appspot.com/o/macys.jpg?alt=media&token=2b8540b7-4b55-45a3-9009-562575816aa8",
+          "priority": 0
+        },
+        {
+          "company": "WoodmenLife",
+          "title": "Software Engineering Intern",
+          "start": "May 2016",
+          "end": "July 2016",
+          "description": "Summer internship, I was placed on an agile based team of developers and\nhad a comparable workload as a full-time junior developer.\nThroughout the course of the program I completed tickets that ranged the entire\nJava/Spring stack. (Java/Spring/MySQL/JSP)\nAs a capstone i was responsible for designing and implementing a new messaging feature from the ground up\ndesigning the views, creating the tables, etc.\n",
+          "image": "https://firebasestorage.googleapis.com/v0/b/resume-data-45ed1.appspot.com/o/woodmen.jpg?alt=media&token=4bbfaa8e-ecdc-4883-8be6-958e22e73045",
+          "priority": 1
+        },
+        {
+          "company": "UGA Office of STEM Education",
+          "title": "Peer Learning Assistant (TA)",
+          "start": "June 2012",
+          "end": "August 2014",
+          "image": "https://firebasestorage.googleapis.com/v0/b/resume-data-45ed1.appspot.com/o/frank.jpg?alt=media&token=15db4569-8dea-46bf-b7cc-94cba6c8c8c8",
+          "description": "I TA CSCI 1301, a rigorous introduction to programming. It's a large lecture format and taught in Java, I am responsible for\ngrading assignment submissions and helping students troubleshoot their lab assignments.\nDuring this past year I have helped create 2 new lab assignments, this includes having an idea which exhibits specific skills (2D arrays, string manipulation, etc) and then creating any external classes the students may need as well as creating grading and instruction documents.\\\\ \nAdditionally I have written and shared numerous grading scripts which automate the process of grading sometimes upward of 100-150 command line applications. These scripts are usually written in the bash scripting language and sometimes require Java Reflection and/or JUnit testing.\n",
+          "priority": 2
+        }
+      ]
+    },
+    "projects": {
+      "priority": -1,
+      "entries": [{
+          "name": "Portfolio Mk. 1",
+          "description": "Static protfolio website hosted via github pages built to gain some understanding of modern css/html/frameworks. My goal was to create a page that I could be proud of and that would positively represent me in a professional light. Utilized the Materialize framework.",
+          "date": "August 2017",
+          "link": "https://autinhardaway.github.io",
+          "cat": "Web",
+          "stack": [{
+              "tech": "HTML 5",
+              "fa": "fab fa-html5"
+            },
+            {
+              "tech": "CSS",
+              "fa": "fab fa-css3"
+            }
+          ]
+        },
+        {
+          "name": "Portfolio Mk. 2",
+          "description": "Upgraded redesign! This is the current page you're looking at, brought to you via a real hosting solution and a Node.js backend. I did the rewrite because I was tired of (procrastinating) editing the raw html from the last site. This site uses a JSON file to parameterize all content and genereates my resume from that file as well. Read about it here: <INSERT DEV.TO LINK>",
+          "link": "#TBD",
+          "date": "August 2018",
+          "cat": "Web",
+          "stack": [{
+              "tech": "Node.js",
+              "fa": "fab fa-node"
+            },
+            {
+              "tech": "Vue.js",
+              "fa": "fab fa-vuejs"
+            },
+            {
+              "tech": "Bootstrap",
+              "fa": "fab fa-twitter"
+            },
+            {
+              "tech": "CSS",
+              "fa": "fab fa-css3"
+            }
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "priority": 500,
+      "entries": [{
+          "cat": "Linux",
+          "val": [
+            "Red Hat family",
+            "Debian family (Ubuntu, Debian)"
+          ]
+        },
+        {
+          "cat": "Scripting",
+          "val": [
+            "Bash",
+            "Python",
+            "Ruby"
+          ]
+        },
+        {
+          "cat": "Backend",
+          "val": [
+            "Python",
+            "Java (Spring)",
+            "C/C++"
+          ]
+        },
+        {
+          "cat": "Frontend",
+          "val": [
+            "HTML",
+            "CSS/Less",
+            "Javascript"
+          ]
+        },
+        {
+          "cat": "Databases",
+          "val": [
+            "SQL (MySQL, DB2, Oracle)",
+            "firebase",
+            "H2"
+          ]
+        },
+        {
+          "cat": "SCM",
+          "val": [
+            "Git",
+            "Subversion"
+          ]
+        }
+      ]
+    }
+  }
+}
