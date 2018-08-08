@@ -31,9 +31,34 @@
           "title": "DevOps Intern",
           "start": "May 2018",
           "end": "August 2018",
-          "description": "10 week internship with the DevOps team in Johns Creek at Macy's Technology.",
+          "description": "I was placed on the D2C DevOps team as a summer intern. In 10 weeks I worked on a variety of infrasturcutre and automation tasks ranging from debugging Jenkins jobs to contributing to a massive migration of code to a new infrastructure. During this internship I was also given a solo project where I was able to levrage the Groovy DSL introduced in Jenkins 2.x to unify and automate the building, testing, and publishing of the projects in the namespace my team supported.",
           "image": "https://firebasestorage.googleapis.com/v0/b/resume-data-45ed1.appspot.com/o/macys.jpg?alt=media&token=2b8540b7-4b55-45a3-9009-562575816aa8",
-          "priority": 0
+          "priority": 0,
+          "stack": [{
+              "tech": "Jenkins",
+              "fa": "fab fa-jenkins"
+            },
+            {
+              "tech": "Groovy",
+              "fa": "fab fa-java"
+            },
+            {
+              "tech": "Chef",
+              "fa": "fas fa-code"
+            },
+            {
+              "tech": "Python",
+              "fa": "fab fa-python"
+            },
+            {
+              "tech": "Linux",
+              "fa": "fab fa-linux"
+            },
+            {
+              "tech": "bash",
+              "fa": "fas fa-terminal"
+            }
+          ]
         },
         {
           "company": "WoodmenLife",
@@ -42,7 +67,24 @@
           "end": "July 2016",
           "description": "Summer internship, I was placed on an agile based team of developers and\nhad a comparable workload as a full-time junior developer.\nThroughout the course of the program I completed tickets that ranged the entire\nJava/Spring stack. (Java/Spring/MySQL/JSP)\nAs a capstone i was responsible for designing and implementing a new messaging feature from the ground up\ndesigning the views, creating the tables, etc.\n",
           "image": "https://firebasestorage.googleapis.com/v0/b/resume-data-45ed1.appspot.com/o/woodmen.jpg?alt=media&token=4bbfaa8e-ecdc-4883-8be6-958e22e73045",
-          "priority": 1
+          "priority": 1,
+          "stack": [{
+              "tech": "Java Spring",
+              "fa": "fab fa-java"
+            },
+            {
+              "tech": "SQL (DB2, Oracle)",
+              "fa": "fas fa-database"
+            },
+            {
+              "tech": "JSP",
+              "fa": "fas fa-code"
+            },
+            {
+              "tech": "HTML/CSS/JS",
+              "fa": "fab fa-html5"
+            }
+          ]
         },
         {
           "company": "UGA Office of STEM Education",
@@ -51,7 +93,20 @@
           "end": "August 2014",
           "image": "https://firebasestorage.googleapis.com/v0/b/resume-data-45ed1.appspot.com/o/frank.jpg?alt=media&token=15db4569-8dea-46bf-b7cc-94cba6c8c8c8",
           "description": "I TA CSCI 1301, a rigorous introduction to programming. It's a large lecture format and taught in Java, I am responsible for\ngrading assignment submissions and helping students troubleshoot their lab assignments.\nDuring this past year I have helped create 2 new lab assignments, this includes having an idea which exhibits specific skills (2D arrays, string manipulation, etc) and then creating any external classes the students may need as well as creating grading and instruction documents.\\\\ \nAdditionally I have written and shared numerous grading scripts which automate the process of grading sometimes upward of 100-150 command line applications. These scripts are usually written in the bash scripting language and sometimes require Java Reflection and/or JUnit testing.\n",
-          "priority": 2
+          "priority": 2,
+          "stack": [{
+              "tech": "Java",
+              "fa": "fab fa-java"
+            },
+            {
+              "tech": "Linux",
+              "fa": "fab fa-linux"
+            },
+            {
+              "tech": "bash",
+              "fa": "fas fa-terminal"
+            }
+          ]
         }
       ]
     },
@@ -62,6 +117,8 @@
           "description": "Static protfolio website hosted via github pages built to gain some understanding of modern css/html/frameworks. My goal was to create a page that I could be proud of and that would positively represent me in a professional light. Utilized the Materialize framework.",
           "date": "August 2017",
           "link": "https://autinhardaway.github.io",
+          "repo": "https://github.com/austinhardaway/austinhardaway.github.io",
+          "post": "",
           "cat": "Web",
           "stack": [{
               "tech": "HTML 5",
@@ -77,7 +134,9 @@
           "name": "Portfolio Mk. 2",
           "description": "Upgraded redesign! This is the current page you're looking at, brought to you via a real hosting solution and a Node.js backend. I did the rewrite because I was tired of (procrastinating) editing the raw html from the last site. This site uses a JSON file to parameterize all content and genereates my resume from that file as well. Read about it here: <INSERT DEV.TO LINK>",
           "link": "#TBD",
+          "repo": "https://github.com/austinhardaway/austin-hardaway",
           "date": "August 2018",
+          "post": "#",
           "cat": "Web",
           "stack": [{
               "tech": "Node.js",

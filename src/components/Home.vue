@@ -15,26 +15,7 @@
 
 <script>
 const data = require("../assets/data.json");
-const colorGen = [
-  "red",
-  "blue",
-  "green",
-  "black",
-  "salmon",
-  "crimson",
-  "darkorange",
-  "gold",
-  "orchid",
-  "rebeccapurple",
-  "darkviolet",
-  "lime",
-  "springgreen",
-  "darkcyan",
-  "teal",
-  "deepskyblue",
-  "royalblue",
-  "navy"
-];
+const colorGen = require("../assets/colors.js").default;
 const colors = ["black", "black", "black", "black", "black", "black", "black"];
 
 export default {

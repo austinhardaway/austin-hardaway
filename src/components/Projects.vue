@@ -1,6 +1,6 @@
 <template>
     <div id="projects">
-        <h1 class="ml-auto text-left">Projects</h1>
+        <h1 class="ml-auto text-left" :style="{color : headerColor}">Projects</h1>
         <div class="container">
           <div class="row" v-for="(row, index) in projectWrapper" :key="index">
               <div class="col" v-for="proj in row" :key="proj.name">
@@ -14,6 +14,8 @@
 <script>
 import ProjectCard from "./ProjectCard.vue";
 const data = require("../assets/data.json");
+const colorGen = require("../assets/colors.js").default;
+
 export default {
   components: { ProjectCard },
   data() {
@@ -36,6 +38,9 @@ export default {
         wrapper.push(row);
       }
       return wrapper;
+    },
+    headerColor: function() {
+      return colorGen[Math.floor(Math.random() * colorGen.length)];
     }
   }
 };

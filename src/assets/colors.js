@@ -1,0 +1,20 @@
+ export default [
+   "red",
+   "blue",
+   "green",
+   "black",
+   "salmon",
+   "crimson",
+   "darkorange",
+   "gold",
+   "orchid",
+   "rebeccapurple",
+   "darkviolet",
+   "lime",
+   "springgreen",
+   "darkcyan",
+   "teal",
+   "deepskyblue",
+   "royalblue",
+   "navy"
+ ];

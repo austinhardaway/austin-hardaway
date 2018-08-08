@@ -1,6 +1,6 @@
 <template>
     <div id="experience">
-        <h1 class="ml-auto text-left">Experience</h1>
+        <h1 class="ml-auto text-left" :style="{color : headerColor}">Experience</h1>
         <div class="container">
           <div v-for="n in evenIndexes" :key="n" class="row">
             <div class="col">
@@ -17,6 +17,7 @@
 <script>
 import WorkCard from "./WorkCard.vue";
 const data = require("../assets/data.json");
+const colorGen = require("../assets/colors.js").default;
 export default {
   components: { WorkCard },
   data() {
@@ -31,6 +32,9 @@ export default {
         even.push(i);
       }
       return even;
+    },
+    headerColor: function() {
+      return colorGen[Math.floor(Math.random() * colorGen.length)];
     }
   }
 };
