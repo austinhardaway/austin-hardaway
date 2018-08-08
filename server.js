@@ -2,8 +2,12 @@
 var express = require('express');
 var path = require('path');
 var serveStatic = require('serve-static');
+var enforce = require('express-sslify');
 
 app = express();
+app.use(enforce.HTTPS({
+  trustProtoHeader: true
+}));
 app.use(serveStatic(__dirname + "/dist"));
 
 var port = process.env.PORT || 5000;
