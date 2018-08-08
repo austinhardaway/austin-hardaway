@@ -132,11 +132,11 @@
         },
         {
           "name": "Portfolio Mk. 2",
-          "description": "Upgraded redesign! This is the current page you're looking at, brought to you via a real hosting solution and a Node.js backend. I did the rewrite because I was tired of (procrastinating) editing the raw html from the last site. This site uses a JSON file to parameterize all content and genereates my resume from that file as well. Read about it here: <INSERT DEV.TO LINK>",
+          "description": "Upgraded redesign! This is the current page you're looking at, brought to you via a real hosting solution and a Node.js backend. I did the rewrite because I was tired of (procrastinating) editing the raw html from the last site. This site uses a JSON file to parameterize all content and genereates my resume from that file as well. A single source of professional truth!",
           "link": "#TBD",
           "repo": "https://github.com/austinhardaway/austin-hardaway",
           "date": "August 2018",
-          "post": "#",
+          "post": "",
           "cat": "Web",
           "stack": [{
               "tech": "Node.js",
