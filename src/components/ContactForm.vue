@@ -15,6 +15,9 @@
                 </div>
                 <button class="btn btn-dark" type="submit">Send</button>
             </form>
+            <b-alert v-if="success" class="alert" variant="success" show>Send Successful!</b-alert>
+            <b-alert v-if="failure" class="alert" variant="danger" show>Failed to send.</b-alert>
+
         </div>
     </div>
 </template>
@@ -29,7 +32,9 @@ export default {
     return {
       email: "",
       subject: "",
-      body: ""
+      body: "",
+      success: false,
+      failure: false
     };
   },
   computed: {
@@ -46,9 +51,10 @@ export default {
           body: this.body
         })
         .then(res => {
-          console.log(res);
+          this.success = true;
         })
         .catch(err => {
+          this.failure = true;
           console.log(err);
         });
     }
@@ -59,6 +65,10 @@ export default {
 form {
   width: 50%;
   margin-top: 40px;
+}
+
+.alert {
+  margin-top: 20px;
 }
 </style>
 

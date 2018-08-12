@@ -20,7 +20,6 @@ router.post('/send', (req, res) => {
   console.log(req.body)
   mailer.sendMail(req.body.email, req.body.subject, req.body.body);
   res.send("Success");
-
 })
 app.use('/api', router);
 
