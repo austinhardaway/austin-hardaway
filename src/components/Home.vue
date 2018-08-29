@@ -1,6 +1,6 @@
 <template>
     <div class="home content">
-      <div class="content">
+      
       <h1 ref='name' class="ml-auto text-left" :style="{color : colors[0]}" @mouseover="getColor(0)">{{fname}}<br/>{{lname}}</h1>
       <p>
           <em :style="{color : colors[1]}" @mouseover="getColor(1)">I turn ideas into code</em><br>
@@ -11,7 +11,7 @@
           <a :href="email" :style="{color : colors[6]}" @mouseover="getColor(6)"><i class="fas fa-envelope-square"></i></a><br>
           <router-link to="Contact" tag="button" :style="{color : colors[7]}" @mouseover="getColor(7)" class="btn-lg btn-outline-dark black-text">Hire Me</router-link>
       </p>
-      </div>
+      
     </div>
 </template>
 
@@ -37,6 +37,9 @@ export default {
   methods: {
     getColor: function(n) {
       colors[n] = colorGen[Math.floor(Math.random() * colorGen.length)];
+      if (n === 1) {
+        colors[n] = colorGen[Math.floor(Math.random() * colorGen.length - 2)];
+      }
       this.$forceUpdate();
     }
   }
@@ -46,7 +49,7 @@ export default {
 <style scoped>
 h1 {
   font-family: "Poiret One";
-  font-size: 200px;
+  font-size: 12rem;
   font-weight: normal;
   color: black;
 }
@@ -60,5 +63,10 @@ a {
 }
 em {
   font-style: inherit;
+}
+
+.content {
+  margin-left: 15%;
+  text-align: left;
 }
 </style>
