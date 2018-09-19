@@ -32,7 +32,6 @@ export default {
 <style >
 h1 {
   font-family: "Poiret One";
-  font-size: 100px;
   font-weight: bold;
 }
 

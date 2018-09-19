@@ -1,7 +1,7 @@
 <template>
     <div class="home content">
       
-      <h1 ref='name' class="ml-auto text-left" :style="{color : colors[0]}" @mouseover="getColor(0)">{{fname}}<br/>{{lname}}</h1>
+      <h1 ref='name' class="display-1 ml-auto text-left" :style="{color : colors[0]}" @mouseover="getColor(0)">{{fname}}<br/>{{lname}}</h1>
       <p>
           <em :style="{color : colors[1]}" @mouseover="getColor(1)">I turn ideas into code</em><br>
           <a :href="facebook" :style="{color : colors[2]}" @mouseover="getColor(2)"><i class="fab fa-facebook-square"></i></a>
@@ -49,7 +49,7 @@ export default {
 <style scoped>
 h1 {
   font-family: "Poiret One";
-  font-size: 12rem;
+  font-size: 200px;
   font-weight: normal;
   color: black;
 }
@@ -68,5 +68,29 @@ em {
 .content {
   margin-left: 15%;
   text-align: left;
+}
+@media (max-width: 1080px) {
+  h1 {
+    font-size: 150px;
+  }
+  em {
+    font-size: 30px;
+  }
+}
+@media (max-width: 800px) {
+  h1 {
+    font-size: 100px;
+  }
+  em {
+    font-size: 20px;
+  }
+}
+@media (max-width: 540px) {
+  h1 {
+    font-size: 50px;
+  }
+  a {
+    font-size: 20px;
+  }
 }
 </style>

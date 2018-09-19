@@ -23,4 +23,25 @@ nav a:hover {
   color: #0000009a;
   font-weight: bold;
 }
+
+@media (max-width: 690px) {
+  nav a {
+    font-size: 30px;
+  }
+}
+@media (max-width: 600px) {
+  nav a {
+    font-size: 23px;
+  }
+}
+@media (max-width: 490px) {
+  nav a {
+    font-size: 15px;
+  }
+}
+@media (max-width: 360px) {
+  nav a {
+    font-size: 12px;
+  }
+}
 </style>

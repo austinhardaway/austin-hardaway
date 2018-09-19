@@ -24,4 +24,19 @@ export default {
   color: #2c3e50;
   margin-top: 0px;
 }
+
+h1 {
+  font-size: 100px;
+}
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 75px;
+  }
+}
+@media (max-width: 370px) {
+  h1 {
+    font-size: 50px;
+  }
+}
 </style>
