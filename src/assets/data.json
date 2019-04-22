@@ -120,6 +120,19 @@
       "priority": -1,
       "entries": [
         {
+          "name": "UGA CSCI1301 Lab Auto-Grader",
+          "description": "As class sizes began to grow the UGA Into to Computing and Programming class that I TA needed an automated way to grade the small weekly and larger bi-weekly programming assignments. I was tasked with creating a Java program that takes as input a well-structured zip file with ~100-150 individual assignments and produces a master list with grades and comments for students. Over the course of the semmester I personally supported 12 assignments as well as creating an underlying system to get the student submissions into a usable format, check for potential pitfalls, compile and run the submissions, and parse out specific pieces of the output that were worth points. This system has saved many, many man-hours of manually compiling, running, and reading program output across 3 undergraduate TA's and 4 graduate TA's. As well as creating and documenting a system to add support for more labs as needed in the future.",
+          "date": "Spring 2019",
+          "post": "",
+          "cat": "CLI Java App",
+          "stack": [
+            {
+              "tech": "Java 10",
+              "fa": "fab fa-java"
+            }
+          ]
+        },
+        {
           "name": "Java Math Practice",
           "description": "Quick Vue app to help the students I TA practice math with data types. It randomly generates a code snippet that declares and initalizes some variables and then gives several math expressoins and asks for the resultant data type and value. Built with Vue.js and Express; deployed via Heroku.",
           "link": "https://java-math.herokuapp.com/#/",
